@@ -15,6 +15,9 @@
 		63214D82244FC931007E8659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63214D80244FC931007E8659 /* LaunchScreen.storyboard */; };
 		63214D8D244FC931007E8659 /* pruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63214D8C244FC931007E8659 /* pruebaTests.swift */; };
 		63214D98244FC931007E8659 /* pruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63214D97244FC931007E8659 /* pruebaUITests.swift */; };
+		633A26CD24526D8500DCFA1E /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A26CC24526D8500DCFA1E /* RegistroViewController.swift */; };
+		633A26CF2452731000DCFA1E /* TabUnoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A26CE2452731000DCFA1E /* TabUnoViewController.swift */; };
+		633A26D1245274BE00DCFA1E /* TabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A26D0245274BE00DCFA1E /* TabCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		63214D93244FC931007E8659 /* pruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63214D97244FC931007E8659 /* pruebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebaUITests.swift; sourceTree = "<group>"; };
 		63214D99244FC931007E8659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633A26CC24526D8500DCFA1E /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		633A26CE2452731000DCFA1E /* TabUnoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabUnoViewController.swift; sourceTree = "<group>"; };
+		633A26D0245274BE00DCFA1E /* TabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				63214D77244FC92F007E8659 /* SceneDelegate.swift */,
 				63214D79244FC92F007E8659 /* ViewController.swift */,
 				63214D7B244FC92F007E8659 /* Main.storyboard */,
+				633A26CC24526D8500DCFA1E /* RegistroViewController.swift */,
+				633A26CE2452731000DCFA1E /* TabUnoViewController.swift */,
+				633A26D0245274BE00DCFA1E /* TabCollectionViewCell.swift */,
 				63214D7E244FC931007E8659 /* Assets.xcassets */,
 				63214D80244FC931007E8659 /* LaunchScreen.storyboard */,
 				63214D83244FC931007E8659 /* Info.plist */,
@@ -260,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				63214D7A244FC92F007E8659 /* ViewController.swift in Sources */,
+				633A26CD24526D8500DCFA1E /* RegistroViewController.swift in Sources */,
+				633A26D1245274BE00DCFA1E /* TabCollectionViewCell.swift in Sources */,
 				63214D76244FC92F007E8659 /* AppDelegate.swift in Sources */,
 				63214D78244FC92F007E8659 /* SceneDelegate.swift in Sources */,
+				633A26CF2452731000DCFA1E /* TabUnoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
